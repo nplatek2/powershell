@@ -1,5 +1,5 @@
 # Load and parse the VM deployment configuration from the JSON file into a PowerShell object
-$config = Get-Content "V:\repositories\powershell\client_setup\client_deploy.json" | ConvertFrom-Json
+$config = Get-Content "D:\repositories\powershell\client_setup\client_deploy.json" | ConvertFrom-Json
 
 # Create VM
 New-VM -Name $config.VMName `

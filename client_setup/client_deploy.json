@@ -1,6 +1,6 @@
 {
   "VMName": "CLIENT",
-  "VMPath": "V:\\VM",
+  "VMPath": "D:\\VM",
   "Generation": 2,
   "MemoryStartupBytes": 4294967296,
   "DynamicMemoryEnabled": true,
@@ -13,8 +13,8 @@
   },
   "DifferencingDisk": {
     "Name": "client_hd.vhdx",
-    "Path": "v:\\Disk_Image\\client_hd.vhdx",
-    "ParentPath": "v:\\Parent_Image\\sysprep_win11.vhdx",
+    "Path": "d:\\Disk_Image\\client_hd.vhdx",
+    "ParentPath": "d:\\Parent_Image\\sysprep_win11.vhdx",
     "ControllerType": "SCSI",
     "ControllerNumber": 0,
     "ControllerLocation": 0
