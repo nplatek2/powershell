@@ -1,5 +1,5 @@
 # Load and parse the VM deployment configuration from the JSON file into a PowerShell object
-$config = Get-Content "V:\repositories\powershell\json\dc_setup\dc_deploy.json" | ConvertFrom-Json
+$config = Get-Content "V:\repositories\powershell\dc_adds_setup\dc_deploy.json" | ConvertFrom-Json
 
 # Check if VM already exists
 if (-not (Get-VM -Name $config.VMName -ErrorAction SilentlyContinue)) {

@@ -8,9 +8,9 @@
   "ProcessorCount": 4,
   "AutomaticCheckpointsEnabled": false,
   "DifferencingDisk": {
-    "Name": "dc_hd.vhdx",
-    "Path": "V:\\Disk_Image\\dc_hd.vhdx",
-    "ParentPath": "V:\\Parent_Image\\server2025_hd.vhdx",
+    "Name": "DC.vhdx",
+    "Path": "v:\\Disk_Image\\dc_hd.vhdx",
+    "ParentPath": "v:\\Parent_Image\\sysprep_server2025.vhdx",
     "ControllerType": "SCSI",
     "ControllerNumber": 0,
     "ControllerLocation": 0
