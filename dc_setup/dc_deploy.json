@@ -1,6 +1,6 @@
 {
   "VMName": "DC",
-  "VMPath": "V:\\VM",
+  "VMPath": "D:\\VM",
   "Generation": 2,
   "MemoryStartupBytes": 4294967296,
   "DynamicMemoryEnabled": true,
@@ -9,8 +9,8 @@
   "AutomaticCheckpointsEnabled": false,
   "DifferencingDisk": {
     "Name": "DC.vhdx",
-    "Path": "v:\\Disk_Image\\dc_hd.vhdx",
-    "ParentPath": "v:\\Parent_Image\\sysprep_server2025.vhdx",
+    "Path": "D:\\Disk_Image\\dc_hd.vhdx",
+    "ParentPath": "D:\\Parent_Image\\sysprep_server2025.vhdx",
     "ControllerType": "SCSI",
     "ControllerNumber": 0,
     "ControllerLocation": 0
